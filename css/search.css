@@ -1,15 +1,16 @@
-
-
-* {
+*
+{
     box-sizing: border-box;
 }
-body{
-    background-color: cyan;
+
+body {
+    background-color: aqua;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0
+    margin: 0;
+
 }
 
 .search {
@@ -17,10 +18,10 @@ body{
     position: relative;
 }
 
-.search .btn {
+.search .btn{
     position: absolute;
     top: 0px;
-    left: 0x;
+    left: 0px;
     font-size: 24px;
     background-color: white;
     border: 0;
@@ -37,19 +38,17 @@ body{
     height: 50px;
     width: 50px;
     padding: 15px;
-    cursor: pointer;
     transition: width 1s ease;
-
 }
 
 .search .input:focus {
-    outline: none;
+   outline: none;
 }
 
 .search.active .input {
     width: 200px;
 }
 
-.search.active .btn {
+.search.active .btn{
     transform: translateX(198px)
 }
