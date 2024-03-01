@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: BlueViolet;
+    background-color: DarkSlateBlue;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .btn {
-    background-color: rebeccapurple;
+    background-color: DarkViolet;
     font-size: 1.2rem;
     padding: 1.5rem 3rem;
     margin: 1rem;
