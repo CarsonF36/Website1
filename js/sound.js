@@ -1,4 +1,4 @@
-sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong', 'hog rider', 'low taper fade', 'rizz']
+sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong', 'hog rider', 'low taper fade', 'rizz', 'motivation', 'looksmaxxing']
 
 sounds.forEach(sound => {
     btn = document.createElement('button')
@@ -18,5 +18,4 @@ function stopSongs() {
         song.pause()
         song.currentTime = 0
     })
-
 }
