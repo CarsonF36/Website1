@@ -93,4 +93,5 @@ body {
 .nav a {
     color: white;
     text-decoration: none;
+    padding: 7px 15px;
 }
