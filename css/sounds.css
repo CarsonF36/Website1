@@ -26,3 +26,14 @@ body {
 .btn:hover {
     opacity: 0.9;
 }
+
+.home {
+    Text-color: black;
+    height: 0px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    font-size: 26px;
+    background-color: blue;
+    border: 0;
+}
