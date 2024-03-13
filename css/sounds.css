@@ -37,3 +37,7 @@ body {
     background-color: blue;
     border: 0;
 }
+
+a:link {
+    background-color: blue;
+  }
